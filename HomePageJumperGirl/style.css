@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0)82.08%, rgba(227, 255, 248, 0.38));
+    min-height: 100vh;
+}
+
+button {
+    border: 0px;
+}
+
+.pagina {
+    width: 1008px;
+    margin:auto;
+    padding-top: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+h1,
+.list,
+.principal {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1534;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 49px;
+    line-height: 56px;
+
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section>p {
+    padding: 40px 0px 40px 0px;
+}
+
+.rede-social {
+
+    display: flex;
+    justify-content: center;
+}
+
+.balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
